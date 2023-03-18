@@ -1,0 +1,36 @@
+.review-item {
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    padding: 8px;
+    margin-top: 21px;
+    width: 571px;
+    display: flex;
+}
+
+.review-item img {
+    width: 91px;
+}
+
+.review-item-details-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.review-item-details p {
+    margin: 0;
+}
+
+.delete-container .delete-btn {
+    background-color: rgb(244, 165, 165);
+    width: 55px;
+    height: 55px;
+    border: 0;
+    border-radius: 50%;
+}
+
+.delete-icon {
+    color: rgb(217, 36, 36);
+    font-size: 27px;
+}
